@@ -1,0 +1,96 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.attendanceWrapper{
+	width: 1000px;
+	margin: auto;
+}
+.takeAttendanceContainer{
+	display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+.takeAttendanceHeader{
+
+}
+.students{
+
+}
+.buttonContainer{
+
+}
+.btnGroup{
+	position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btnGroup>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.btnGroup>.btn:last-child:not(:first-child), .btnGroup>.dropdown-toggle:not(:first-child) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.btnGroup>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0;
+}
+.btn{
+	display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid ;
+    padding: 0.5rem 1rem;
+    font-size: 0.86rem;
+    border-radius: 0.25rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+	color: #292b2c;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.attendanceOverview{
+	display: block;
+    max-width: 100%;
+    overflow: scroll;
+}
+.table{
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.table tr{
+	border-top: 1px solid #eceeef;
+}
+.table thead th{
+	vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+}
+.table th, .table td {
+    border-top: 0;
+}
+.table th, .table td {
+    padding: 0.3rem;
+}
+
+th {
+    text-align: left;
+}
+.attendanceTable{
+
+}
+.thead{
+
+}
